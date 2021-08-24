@@ -71,12 +71,12 @@
     }
     main {
       width: 100%;
-      margin: auto;
+      margin: 50px auto;
       display: block;
     }
     .step-box {
       width: 90%;
-      margin :auto;
+      margin : 20px auto;
     }
     .step-box:last-child{
       margin: auto;
