@@ -65,18 +65,21 @@
     height: 50px;
     background-color: #aaa;
   }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 768px) {
     header {
       width: 100%;
     }
     main {
       width: 100%;
+      margin: auto;
       display: block;
-      margin: 5.2% auto;
-    }  
+    }
     .step-box {
-      margin: 3%;
-      padding: 1%;
+      width: 90%;
+      margin :auto;
+    }
+    .step-box:last-child{
+      margin: auto;
     }
     footer{
       width: 100%;
